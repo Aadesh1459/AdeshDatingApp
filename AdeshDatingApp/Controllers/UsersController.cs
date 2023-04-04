@@ -1,12 +1,14 @@
 using AdeshDatingApp.Data;
 using AdeshDatingApp.Entities;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
 namespace AdeshDatingApp.Controllers
 {
     [ApiController]
-    [Route("adeshdatingapp/[Controller]")]    // GET  adeshdatingapp/users
+    [Route("adeshdatingapp/[Controller]")]  // GET  adeshdatingapp/users
+
 
     public class UsersController
     {
